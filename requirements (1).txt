@@ -1,0 +1,14 @@
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+plotly>=5.17.0
+requests>=2.31.0
+Pillow>=10.0.0
+SpeechRecognition>=3.10.0
+pyserial>=3.5
+# PyAudio is needed for voice input — install separately:
+# Windows: pip install pipwin && pipwin install pyaudio
+# Mac:     brew install portaudio && pip install pyaudio
+# Linux:   sudo apt-get install portaudio19-dev && pip install pyaudio
